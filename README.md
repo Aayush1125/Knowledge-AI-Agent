@@ -1,22 +1,35 @@
 This repository contains a Retrieval-Augmented Generation (RAG) application built using the Google Gemini API. It allows users to ask questions about the Indian Constitution and receive concise, context-aware answers derived directly from the official document.
 
 Features:-
+
 PDF Ingestion: Automatically loads and processes the "Indian_Constitution.pdf".
+
 Vector Search: Uses ChromaDB and GoogleGenerativeAIEmbeddings for efficient document retrieval.
+
 Gemini 1.5 Pro: Leverages Google's state-of-the-art LLM for generating accurate responses.
+
 Streamlit UI: A clean, chat-based interface for easy interaction.
 
 Tech Stack:-
+
 LLM: Google Gemini 1.5 Pro
+
 Orchestration: LangChain
+
 Vector Database: ChromaDB
+
 Frontend: Streamlit
+
 Embeddings: Google Generative AI Embeddings (models/embedding-001)
 
 Prerequisites:-
+
 Before running the project, ensure you have:
+
 A Google AI Studio API Key.
+
 Python 3.9+ installed.
+
 The Indian_Constitution.pdf file in the root directory.
 
 How It Works:-
