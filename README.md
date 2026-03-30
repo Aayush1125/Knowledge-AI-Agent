@@ -33,8 +33,13 @@ Python 3.9+ installed.
 The Indian_Constitution.pdf file in the root directory.
 
 How It Works:-
+
 Loading: The PyPDFLoader reads the Indian Constitution PDF.
+
 Splitting: The text is broken into 1,000-character chunks using RecursiveCharacterTextSplitter.
+
 Embedding: Chunks are converted into high-dimensional vectors and stored in a local chroma_db/ directory.
+
 Retrieval: When you ask a question, the system finds the top 10 most relevant snippets from the PDF.
+
 Generation: Gemini 1.5 Pro synthesizes the snippets into a concise, 3-sentence maximum answer.
