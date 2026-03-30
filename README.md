@@ -32,6 +32,26 @@ Python 3.9+ installed.
 
 The Indian_Constitution.pdf file in the root directory.
 
+Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Install dependencies:
+
+pip install streamlit langchain-google-genai langchain-community langchain-chroma pypdf python-dotenv
+
+Set up environment variables:
+Create a .env file in the root directory and add your API key:
+
+Code snippet
+GOOGLE_API_KEY=your_actual_api_key_here
+Run the application:
+
+streamlit run app.py
+
 How It Works:-
 
 Loading: The PyPDFLoader reads the Indian Constitution PDF.
